@@ -198,14 +198,14 @@
 				<artifactId>flyway-maven-plugin</artifactId>
 				<version>5.2.4</version>
 				<configuration>
-					<url>jdbc:postgresql://ec2-174-129-253-53.compute-1.amazonaws.com:5432/d900f57upfq10</url>
+					<url>jdbc:postgresql://192.168.0.27:5434/softplan_teste</url>
 					<schemas>
 						<schema>public</schema>
 						<schema>security</schema>
 						<schema>audit</schema>
 					</schemas>
-					<user>dwwibdspxyuwkx</user>
-					<password>f5f8ba24d6335b09fe72bc7ef59974f114f861feb9d68e96ca88de57e9246553</password>
+					<user>postgres</user>
+					<password>postgres</password>
 					<baselineOnMigrate>true</baselineOnMigrate>
 				</configuration>
 			</plugin>

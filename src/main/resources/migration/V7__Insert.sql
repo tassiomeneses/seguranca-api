@@ -4,7 +4,7 @@ insert into security.tb_application (initials, name, id) values ('SEC', 'Seguran
 /*tb_user*/
 insert into security.tb_user
     (id,active, cpf, email, last_access, login, name, password, gender, birth_place, nationality, birth_Date) values
-    ( nextval ('security.user_id_seq'), true, '111.111.111-11', 'root@root.com.br', null, 'user.root', 'Usuário Root', '$2a$10$.EW8rrDQwX2TmvF2wBAmBOkWBZhzx8NuEfzr/s/BlrArtDDU5b256',
+    ( nextval ('security.user_id_seq'), true, '111.111.111-11', 'root@root.com.br', null, 'user.root', 'Usuário Root', '$2a$12$yYwsqSlsCd/xyLhVn4L1auErZ31tcqW1sJLmIkILx0z7Jm4QI5AGO',
      'M', 'FORTALEZA', 'BRASILEIRO', '1985-06-27');
 
 /*tb_profile*/

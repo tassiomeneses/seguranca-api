@@ -40,7 +40,7 @@ public class AuthBusiness {
     @Transactional
     public Map<String, Object> authenticate(LoginRequest loginRequest) {
        // loginRequest.getApplication()
-        request.getSession().setAttribute("app",1L );
+        request.getSession().setAttribute("app",4L );
 
         UsernamePasswordAuthenticationToken authReq = new UsernamePasswordAuthenticationToken(loginRequest.getUsernameOrEmail(), loginRequest.getPassword());
         Authentication authentication = authenticationManager.authenticate(authReq);
