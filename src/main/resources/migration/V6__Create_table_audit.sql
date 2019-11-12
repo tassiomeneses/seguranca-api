@@ -91,7 +91,7 @@ create table if not exists audit.tb_user_aud
 	gender varchar(255),
 	birthPlace varchar(255),
 	nationality varchar(255),
-	birthDate date
+	birthDate date,
 	constraint tb_user_aud_pkey
 		primary key (id, rev)
 );

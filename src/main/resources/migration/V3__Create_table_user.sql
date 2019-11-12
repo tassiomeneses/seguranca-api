@@ -45,9 +45,9 @@ create table if not exists security.tb_user
 	name varchar(255) not null,
 	password varchar(255),
 	gender varchar(255),
-	birthPlace varchar(255),
+	birth_place varchar(255),
 	nationality varchar(255),
-	birthDate date
+	birth_date date
 );
 
 alter table security.tb_user
