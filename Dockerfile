@@ -1,5 +1,3 @@
-#FROM nexus.arce.ce.gov.br:8082/glowroot-arce:1 as glowroot-stage
-
 FROM openjdk:8-jdk-alpine as up-stage
 
 # The application's jar file
