@@ -55,9 +55,7 @@ public class Profile extends AbstractModel<Long>  {
     public List<String> getProperties() {
         String[] properties = {
             "id",
-            "name",
-            "functionalityList.id",
-            "functionalityList.name",
+            "name"  
         };
 
         return new ArrayList<>(Arrays.asList(properties));
